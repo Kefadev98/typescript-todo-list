@@ -53,7 +53,7 @@ const SingleTodo = ({ todo }: Props) => {
         borderRadius={"5px"}
         p={"20px"}
         mt={"15px"}
-        bgGradient="linear(to-r, #fffefe, #b8b5b5)"
+        bgGradient="linear(to-r, blue.200, pink.300)"
       >
         {edit ? (
           <Input

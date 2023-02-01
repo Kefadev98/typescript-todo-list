@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <ChakraProvider theme={customTheme}>
         <TodoContextProvider>
-          <Heading my="30px" textStyle="h3">
+          <Heading my="30px" textStyle="h3" color="white">
             Taskify
           </Heading>
           <InputField />

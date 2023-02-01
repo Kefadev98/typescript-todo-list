@@ -10,7 +10,7 @@ const TodoList = () => {
       {todoContext.isSmallerThan700 ? (
         <Flex
           w={"100%"}
-          bg={"#272727"}
+          bg={"gray.100"}
           mt={"20px"}
           direction={"column"}
           p={"15px"}
@@ -23,7 +23,8 @@ const TodoList = () => {
       ) : (
         <Flex
           w={"60%"}
-          bg={"#272727"}
+          bg={"gray.100"}
+          boxShadow={"2xl"}
           mt={"20px"}
           direction={"column"}
           p={"15px"}

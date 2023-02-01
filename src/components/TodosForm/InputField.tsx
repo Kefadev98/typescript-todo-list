@@ -23,8 +23,9 @@ const InputField = () => {
             borderRadius={"50px"}
             fontSize={"1.2rem"}
             border={"none"}
-            bg={"#272727"}
-            color={"white"}
+            bg={"gray.100"}
+            boxShadow={"2xl"}
+            color={"black"}
             _focus={{
               boxShadow: "0 0 10px 1000px rgba(0, 0, 0, 0.5)",
               outline: "none",
@@ -36,7 +37,7 @@ const InputField = () => {
             ref={inputRef}
           />
           <Button
-            colorScheme={"gray"}
+            bgGradient="linear(to-r, blue.100, pink.300)"
             variant={"solid"}
             position={"absolute"}
             right={"0"}
